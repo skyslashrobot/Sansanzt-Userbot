@@ -1,7 +1,7 @@
 {
   "name": "Kyy-Userbot",
   "description": "USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/276d22aac9f400898cd27.jpg",
+  "logo": "https://telegra.ph/file/f5dc7fd0a7bd8b59f46d9.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/muhammadrizky16/Kyy-Userbot/Kyy-Userbot",
-  "telegram": "https://t.me/IDnyaKosong",
-  "success_url": "https://t.me/NastyProject",
+  "repository": "https://github.com/Melromarch/Sansanzt-Userbot/Sansanzt-Userbot",
+  "telegram": "https://t.me/Sansanzt",
+  "success_url": "https://t.me/SansanztProject",
   "stack": "container",
   "env": {
     "API_KEY": {
