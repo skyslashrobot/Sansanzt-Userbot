@@ -7,7 +7,7 @@ RUN apt-get install -y --no-install-recommends \
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get install -y nodejs && \
     npm i -g npm
-RUN git clone -b Kyy-Userbot https://github.com/Melromarch/Sansanzt-Userbot /home/Sansanzt-Userbot/ \
+RUN git clone -b Sansanzt-Userbot https://github.com/Melromarch/Sansanzt-Userbot /home/Sansanzt-Userbot/ \
     && chmod 777 /home/Kyy-Userbot \
     && mkdir /home/Kyy-Userbot/bin/
 WORKDIR /home/Kyy-Userbot/
