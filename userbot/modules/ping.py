@@ -131,7 +131,7 @@ async def redis(pong):
     )
 
 
-@Sansanzt_cmd(pattern="sinyal$")
+@sansanzt_cmd(pattern="sinyal$")
 async def redis(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
@@ -156,7 +156,7 @@ async def redis(pong):
     )
 
 
-@Sansanzt_cmd(pattern="ping$")
+@sansanzt_cmd(pattern="ping$")
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
@@ -175,7 +175,7 @@ async def pingme(pong):
     )
 
 
-@Sansanzt_cmd(pattern="kecepatan$")
+@sansanzt_cmd(pattern="kecepatan$")
 async def speedtst(spd):
     """For .speed command, use SpeedTest to check server speeds."""
     kecepatan = await edit_or_reply(spd, "**Sedang Menjalankan Tes Kecepatan Jaringan,Mohon Tunggu...**")
@@ -217,7 +217,7 @@ def speed_convert(size):
     return f"{round(size, 2)} {units[zero]}"
 
 
-@kyy_cmd(pattern="pong$")
+@sansanzt_cmd(pattern="pong$")
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     start = datetime.now()
@@ -230,7 +230,7 @@ async def pingme(pong):
     await pong.edit(f"**★SansanztName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
-@kyy_cmd(pattern="pink$")
+@sansanzt_cmd(pattern="pink$")
 async def redis(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
