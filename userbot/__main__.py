@@ -30,11 +30,11 @@ try:
     call_py.start()
     user = bot.get_me()
     kyyblacklist = requests.get(
-        "https://raw.githubusercontent.com/muhammadrizky16/Kyyblack/master/kyyblacklist.json"
+        "https://raw.githubusercontent.com/Sansanzt/Sansanztblack/master/Sansanztblacklist.json"
     ).json()
     if user.id in kyyblacklist:
         LOGS.warning(
-            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @IDnyaKosong"
+            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @Sansanzt"
         )
         sys.exit(1)
 except Exception as e:
@@ -47,13 +47,13 @@ for module_name in ALL_MODULES:
 LOGS.info(
     f"Jika {ALIVE_NAME} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/NastySupportt")
 LOGS.info(
-    f"✨Kyy-Userbot✨ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    f"★Sansanzt-Userbot★ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 
 
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_message(BOTLOG_CHATID, "✨ **Kyy Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.0@Kyy-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @NastyProject ")
+            await bot.send_message(BOTLOG_CHATID, "★ **Sansanzt Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 3.1.0@Sansanzt-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @SansanztProject ")
     except Exception as e:
         LOGS.info(str(e))
     try:
