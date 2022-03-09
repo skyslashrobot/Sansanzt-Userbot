@@ -9,7 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     npm i -g npm
 RUN git clone -b Sansanzt-Userbot https://github.com/Melromarch/Sansanzt-Userbot /home/Sansanzt-Userbot/ \
     && chmod 777 /home/Sansanzt-Userbot \
-    && mkdir /home/Kyy-Userbot/bin/
+    && mkdir /home/Sansanzt-Userbot/bin/
 WORKDIR /home/Sansanzt-Userbot/
 COPY ./sample_config.env ./config.env* /home/Sansanzt-Userbot/
 RUN pip install -r requirements.txt
